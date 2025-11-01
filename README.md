@@ -137,7 +137,7 @@ User Types → useDebounce → useGithubUser → API (AbortController)
 
 ```bash
 git clone https://github.com/yourusername/React-Hooks-Playground.git
-cd react-hooks-playground
+cd React-Hooks-Playground
 npm install
 npm run dev
 ```
