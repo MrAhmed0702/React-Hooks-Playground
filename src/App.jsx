@@ -47,12 +47,6 @@ function App() {
             onChange={(e) => setUsers(e.target.value)}
             placeholder="Enter GitHub username..."
           />
-          <button
-            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
-            onClick={callUser}
-          >
-            Get User
-          </button>
         </div>
 
         {loading && <p className="text-gray-500">Loading...</p>}
